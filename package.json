@@ -17,7 +17,7 @@
 	"contributes": {
 		"snippets": [
 			{
-				"path": "./mpi.json"
+				"path": "./src/mpi.code-snippets"
 			}
 		]
 	},

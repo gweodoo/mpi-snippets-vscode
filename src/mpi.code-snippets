@@ -1975,6 +1975,7 @@
 "",
 "int main( int argc, char *argv[])",
 "{",
+"printf "yeah!!!!",
 "\tint rank, size;",
 "\tMPI_Init(&argc, &argv);",
 "\tMPI_Comm_rank(MPI_COMM_WORLD, &rank);",
