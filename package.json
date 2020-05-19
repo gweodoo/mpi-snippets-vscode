@@ -1,0 +1,29 @@
+{
+	"name": "mpi-snippets",
+	"displayName": "MPI Snippets for VSCode",
+	"description": "Enable support for MPI routine autocompletion for C & C++ source files.",
+	"version": "0.2.0",
+	"publisher": "adamj",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gweodoo/mpi-snippets.git"
+	},
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"path": "./mpi.json"
+			}
+		]
+	},
+	"dependencies": {
+		"generator-code": "^1.2.13",
+		"vsce": "^1.75.0",
+		"yo": "^3.1.1"
+	}
+}
