@@ -6,7 +6,7 @@
 	"publisher": "adamj",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/gweodoo/mpi-snippets.git"
+		"url": "https://github.com/gweodoo/mpi-snippets-vscode.git"
 	},
 	"engines": {
 		"vscode": "^1.28.0"
