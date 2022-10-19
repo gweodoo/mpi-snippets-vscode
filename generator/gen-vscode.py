@@ -20,9 +20,9 @@ for f in mpi_interface:
 	else:
 		rtype = "int"
 	IFACE+= "\n\"" + f + "\": {\n"
-        IFACE+= "\t\"scope\": \"c,cpp\",\n"
+	IFACE+= "\t\"scope\": \"c,cpp\",\n"
 	IFACE+= "\t\"prefix\": [\""+f+"\"],\n"
-        IFACE+= "\t\"description\" : \"MPI " + f.replace("MPI_", "") + " Snippet\",\n"
+	IFACE+= "\t\"description\" : \"MPI " + f.replace("MPI_", "") + " Snippet\",\n"
 	IFACE+= "\t\"body\" : [ \"" + f + "("
 	for i in range(0, len(fd)):
 		arg=fd[i]
@@ -36,7 +36,7 @@ for f in mpi_interface:
 			idx=-1
 		if idx!=-1:
 			array=ctype[idx:]
-   			ctype=ctype[0:idx]
+			ctype=ctype[0:idx]
 		IFACE+=" ${" + str(i+1) + ":" + ctype + " " + name + array + "}"
 		if i < (len(fd) - 1):
 			IFACE += " ,"
