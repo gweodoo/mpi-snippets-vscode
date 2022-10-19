@@ -2,7 +2,7 @@
 	"name": "mpi-snippets",
 	"displayName": "MPI Snippets for VSCode",
 	"description": "Enable support for MPI routine autocompletion for C & C++ source files.",
-	"version": "0.5.0",
+	"version": "0.7.0",
 	"publisher": "adamj",
 	"repository": {
 		"type": "git",
