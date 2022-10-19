@@ -15,7 +15,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -31,7 +31,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -99,7 +99,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -111,7 +111,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -129,7 +129,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -141,7 +141,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -167,7 +167,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -179,11 +179,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -201,7 +201,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -213,11 +213,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -261,7 +261,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -287,7 +287,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -317,7 +317,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -329,7 +329,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -347,7 +347,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -359,7 +359,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -385,11 +385,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -401,11 +401,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -423,11 +423,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -439,11 +439,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -469,11 +469,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -485,11 +485,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -507,11 +507,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -523,11 +523,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -615,7 +615,7 @@
             "buffer"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -637,7 +637,7 @@
             "buffer"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -667,7 +667,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -693,7 +693,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -723,7 +723,7 @@
             "buffer"
         ],
         [
-            "int",
+            "MPI_Count",
             "size"
         ]
     ],
@@ -733,7 +733,7 @@
             "buffer_addr"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "size"
         ]
     ],
@@ -987,6 +987,28 @@
         [
             "MPI_Errhandler*",
             "errhandler"
+        ]
+    ],
+    "MPI_Comm_create_from_group": [
+        [
+            "MPI_Group",
+            "group"
+        ],
+        [
+            "const char*",
+            "stringtag"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_Errhandler",
+            "errhandler"
+        ],
+        [
+            "MPI_Comm*",
+            "newcomm"
         ]
     ],
     "MPI_Comm_create_group": [
@@ -1605,7 +1627,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1631,7 +1653,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1825,7 +1847,7 @@
             "datatype"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "extent"
         ]
     ],
@@ -1861,7 +1883,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1883,7 +1905,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1909,7 +1931,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1935,7 +1957,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1957,7 +1979,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -1979,7 +2001,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2001,7 +2023,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2027,7 +2049,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2053,7 +2075,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2075,7 +2097,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2129,7 +2151,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2151,7 +2173,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2173,7 +2195,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2209,7 +2231,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2235,7 +2257,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2261,7 +2283,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2293,7 +2315,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2315,7 +2337,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2347,7 +2369,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2469,7 +2491,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2491,7 +2513,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2513,7 +2535,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2549,7 +2571,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2575,7 +2597,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2601,7 +2623,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2633,7 +2655,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2655,7 +2677,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2687,7 +2709,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -2718,7 +2740,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -2730,7 +2752,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -2752,7 +2774,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -2764,7 +2786,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -2794,7 +2816,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -2806,11 +2828,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -2832,7 +2854,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -2844,11 +2866,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -2878,7 +2900,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -2894,7 +2916,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -2912,7 +2934,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -2924,7 +2946,7 @@
             "result_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "result_count"
         ],
         [
@@ -2940,7 +2962,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -2976,7 +2998,35 @@
             "datatype"
         ],
         [
-            "int*",
+            "MPI_Count*",
+            "count"
+        ]
+    ],
+    "MPI_Get_elements": [
+        [
+            "const MPI_Status*",
+            "status"
+        ],
+        [
+            "MPI_Datatype",
+            "datatype"
+        ],
+        [
+            "MPI_Count*",
+            "count"
+        ]
+    ],
+    "MPI_Get_elements_x": [
+        [
+            "const MPI_Status*",
+            "status"
+        ],
+        [
+            "MPI_Datatype",
+            "datatype"
+        ],
+        [
+            "MPI_Count*",
             "count"
         ]
     ],
@@ -3206,6 +3256,20 @@
             "group"
         ]
     ],
+    "MPI_Group_from_session_pset": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "const char*",
+            "pset_name"
+        ],
+        [
+            "MPI_Group*",
+            "newgroup"
+        ]
+    ],
     "MPI_Group_incl": [
         [
             "MPI_Group",
@@ -3336,7 +3400,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3348,7 +3412,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -3370,7 +3434,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3382,11 +3446,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -3412,7 +3476,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -3438,7 +3502,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3450,7 +3514,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -3472,11 +3536,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -3488,11 +3552,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -3514,11 +3578,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -3530,11 +3594,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -3566,7 +3630,7 @@
             "buffer"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -3592,7 +3656,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -3626,7 +3690,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -3652,7 +3716,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3664,7 +3728,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -3690,7 +3754,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3702,11 +3766,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -3758,7 +3822,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -3780,7 +3844,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3792,7 +3856,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -3814,7 +3878,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3826,11 +3890,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -3852,7 +3916,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -3864,7 +3928,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -3886,11 +3950,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -3902,11 +3966,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -3928,7 +3992,7 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
@@ -3944,7 +4008,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -3965,6 +4029,20 @@
         ]
     ],
     "MPI_Info_create": [
+        [
+            "MPI_Info*",
+            "info"
+        ]
+    ],
+    "MPI_Info_create_env": [
+        [
+            "int",
+            "argc"
+        ],
+        [
+            "char[]",
+            "argv"
+        ],
         [
             "MPI_Info*",
             "info"
@@ -4156,6 +4234,40 @@
             "newintercomm"
         ]
     ],
+    "MPI_Intercomm_create_from_groups": [
+        [
+            "MPI_Group",
+            "local_group"
+        ],
+        [
+            "int",
+            "local_leader"
+        ],
+        [
+            "MPI_Group",
+            "remote_group"
+        ],
+        [
+            "int",
+            "remote_leader"
+        ],
+        [
+            "const char*",
+            "stringtag"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_Errhandler",
+            "errhandler"
+        ],
+        [
+            "MPI_Comm*",
+            "newintercomm"
+        ]
+    ],
     "MPI_Intercomm_merge": [
         [
             "MPI_Comm",
@@ -4198,7 +4310,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4232,7 +4344,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4266,7 +4378,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -4296,7 +4408,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4322,7 +4434,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4362,7 +4474,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4388,7 +4500,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4400,7 +4512,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4426,11 +4538,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -4442,7 +4554,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4468,7 +4580,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4492,13 +4604,101 @@
             "request"
         ]
     ],
+    "MPI_Isendrecv": [
+        [
+            "const void*",
+            "sendbuf"
+        ],
+        [
+            "MPI_Count",
+            "sendcount"
+        ],
+        [
+            "MPI_Datatype",
+            "sendtype"
+        ],
+        [
+            "int",
+            "dest"
+        ],
+        [
+            "int",
+            "sendtag"
+        ],
+        [
+            "void*",
+            "recvbuf"
+        ],
+        [
+            "MPI_Count",
+            "recvcount"
+        ],
+        [
+            "MPI_Datatype",
+            "recvtype"
+        ],
+        [
+            "int",
+            "source"
+        ],
+        [
+            "int",
+            "recvtag"
+        ],
+        [
+            "MPI_Comm",
+            "comm"
+        ],
+        [
+            "MPI_Request*",
+            "request"
+        ]
+    ],
+    "MPI_Isendrecv_replace": [
+        [
+            "void*",
+            "buf"
+        ],
+        [
+            "MPI_Count",
+            "count"
+        ],
+        [
+            "MPI_Datatype",
+            "datatype"
+        ],
+        [
+            "int",
+            "dest"
+        ],
+        [
+            "int",
+            "sendtag"
+        ],
+        [
+            "int",
+            "source"
+        ],
+        [
+            "int",
+            "recvtag"
+        ],
+        [
+            "MPI_Comm",
+            "comm"
+        ],
+        [
+            "MPI_Request*",
+            "request"
+        ]
+    ],
     "MPI_Issend": [
         [
             "const void*",
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4588,7 +4788,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -4610,7 +4810,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4622,7 +4822,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4640,7 +4840,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4652,7 +4852,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4678,7 +4878,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4690,11 +4890,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -4712,7 +4912,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4724,11 +4924,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -4754,7 +4954,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4766,7 +4966,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4784,7 +4984,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -4796,7 +4996,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -4822,11 +5022,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -4838,11 +5038,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -4860,11 +5060,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "sdispls"
         ],
         [
@@ -4876,11 +5076,11 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "rdispls"
         ],
         [
@@ -4906,7 +5106,7 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
@@ -4922,7 +5122,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -4944,7 +5144,7 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
@@ -4960,7 +5160,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -5030,7 +5230,7 @@
             "inbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "incount"
         ],
         [
@@ -5042,11 +5242,11 @@
             "outbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "outsize"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "position"
         ],
         [
@@ -5064,7 +5264,7 @@
             "inbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "incount"
         ],
         [
@@ -5076,11 +5276,11 @@
             "outbuf"
         ],
         [
-            "MPI_Aint",
+            "MPI_Count",
             "outsize"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "position"
         ]
     ],
@@ -5090,7 +5290,7 @@
             "datarep"
         ],
         [
-            "int",
+            "MPI_Count",
             "incount"
         ],
         [
@@ -5098,13 +5298,13 @@
             "datatype"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "size"
         ]
     ],
     "MPI_Pack_size": [
         [
-            "int",
+            "MPI_Count",
             "incount"
         ],
         [
@@ -5116,8 +5316,22 @@
             "comm"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "size"
+        ]
+    ],
+    "MPI_Parrived": [
+        [
+            "MPI_Request",
+            "request"
+        ],
+        [
+            "int",
+            "partition"
+        ],
+        [
+            "int*",
+            "flag"
         ]
     ],
     "MPI_Pcontrol": [
@@ -5128,6 +5342,82 @@
         [
             "...",
             ""
+        ]
+    ],
+    "MPI_Pready": [
+        [
+            "int",
+            "partition"
+        ],
+        [
+            "MPI_Request",
+            "request"
+        ]
+    ],
+    "MPI_Pready_list": [
+        [
+            "int",
+            "length"
+        ],
+        [
+            "const int[]",
+            "array_of_partitions"
+        ],
+        [
+            "MPI_Request",
+            "request"
+        ]
+    ],
+    "MPI_Pready_range": [
+        [
+            "int",
+            "partition_low"
+        ],
+        [
+            "int",
+            "partition_high"
+        ],
+        [
+            "MPI_Request",
+            "request"
+        ]
+    ],
+    "MPI_Precv_init": [
+        [
+            "void*",
+            "buf"
+        ],
+        [
+            "int",
+            "partitions"
+        ],
+        [
+            "MPI_Count",
+            "count"
+        ],
+        [
+            "MPI_Datatype",
+            "datatype"
+        ],
+        [
+            "int",
+            "source"
+        ],
+        [
+            "int",
+            "tag"
+        ],
+        [
+            "MPI_Comm",
+            "comm"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_Request*",
+            "request"
         ]
     ],
     "MPI_Probe": [
@@ -5146,6 +5436,44 @@
         [
             "MPI_Status*",
             "status"
+        ]
+    ],
+    "MPI_Psend_init": [
+        [
+            "const void*",
+            "buf"
+        ],
+        [
+            "int",
+            "partitions"
+        ],
+        [
+            "MPI_Count",
+            "count"
+        ],
+        [
+            "MPI_Datatype",
+            "datatype"
+        ],
+        [
+            "int",
+            "dest"
+        ],
+        [
+            "int",
+            "tag"
+        ],
+        [
+            "MPI_Comm",
+            "comm"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_Request*",
+            "request"
         ]
     ],
     "MPI_Publish_name": [
@@ -5168,7 +5496,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -5184,7 +5512,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -5208,7 +5536,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -5224,7 +5552,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -5250,7 +5578,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5280,7 +5608,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5314,7 +5642,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5344,7 +5672,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5382,7 +5710,7 @@
             "inoutbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5404,7 +5732,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -5430,7 +5758,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5456,7 +5784,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5490,7 +5818,7 @@
             "recvbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "recvcounts"
         ],
         [
@@ -5562,7 +5890,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -5578,7 +5906,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -5600,7 +5928,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -5612,7 +5940,7 @@
             "result_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "result_count"
         ],
         [
@@ -5628,7 +5956,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -5654,7 +5982,7 @@
             "origin_addr"
         ],
         [
-            "int",
+            "MPI_Count",
             "origin_count"
         ],
         [
@@ -5670,7 +5998,7 @@
             "target_disp"
         ],
         [
-            "int",
+            "MPI_Count",
             "target_count"
         ],
         [
@@ -5692,7 +6020,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5718,7 +6046,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5752,7 +6080,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5778,7 +6106,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5808,7 +6136,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -5820,7 +6148,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5842,7 +6170,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -5854,7 +6182,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5884,11 +6212,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -5900,7 +6228,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5922,11 +6250,11 @@
             "sendbuf"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "sendcounts"
         ],
         [
-            "const int[]",
+            "const MPI_Aint[]",
             "displs"
         ],
         [
@@ -5938,7 +6266,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -5968,7 +6296,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -5994,7 +6322,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -6024,7 +6352,7 @@
             "sendbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "sendcount"
         ],
         [
@@ -6044,7 +6372,7 @@
             "recvbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "recvcount"
         ],
         [
@@ -6074,7 +6402,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -6106,13 +6434,133 @@
             "status"
         ]
     ],
+    "MPI_Session_call_errhandler": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "int",
+            "errorcode"
+        ]
+    ],
+    "MPI_Session_create_errhandler": [
+        [
+            "MPI_Session_errhandler_function*",
+            "session_errhandler_fn"
+        ],
+        [
+            "MPI_Errhandler*",
+            "errhandler"
+        ]
+    ],
+    "MPI_Session_finalize": [
+        [
+            "MPI_Session*",
+            "session"
+        ]
+    ],
+    "MPI_Session_get_errhandler": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "MPI_Errhandler*",
+            "errhandler"
+        ]
+    ],
+    "MPI_Session_get_info": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "MPI_Info*",
+            "info_used"
+        ]
+    ],
+    "MPI_Session_get_nth_pset": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "int",
+            "n"
+        ],
+        [
+            "int*",
+            "pset_len"
+        ],
+        [
+            "char*",
+            "pset_name"
+        ]
+    ],
+    "MPI_Session_get_num_psets": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "int*",
+            "npset_names"
+        ]
+    ],
+    "MPI_Session_get_pset_info": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "const char*",
+            "pset_name"
+        ],
+        [
+            "MPI_Info*",
+            "info"
+        ]
+    ],
+    "MPI_Session_init": [
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_Errhandler",
+            "errhandler"
+        ],
+        [
+            "MPI_Session*",
+            "session"
+        ]
+    ],
+    "MPI_Session_set_errhandler": [
+        [
+            "MPI_Session",
+            "session"
+        ],
+        [
+            "MPI_Errhandler",
+            "errhandler"
+        ]
+    ],
     "MPI_Ssend": [
         [
             "const void*",
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -6138,7 +6586,7 @@
             "buf"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -6198,7 +6646,7 @@
             "datatype"
         ],
         [
-            "int",
+            "MPI_Count",
             "count"
         ]
     ],
@@ -6219,7 +6667,7 @@
     "MPI_T_category_changed": [
         [
             "int*",
-            "stamp"
+            "update_number"
         ]
     ],
     "MPI_T_category_get_categories": [
@@ -6237,6 +6685,20 @@
         ]
     ],
     "MPI_T_category_get_cvars": [
+        [
+            "int",
+            "cat_index"
+        ],
+        [
+            "int",
+            "len"
+        ],
+        [
+            "int[]",
+            "indices"
+        ]
+    ],
+    "MPI_T_category_get_events": [
         [
             "int",
             "cat_index"
@@ -6298,6 +6760,16 @@
         [
             "int*",
             "num_cat"
+        ]
+    ],
+    "MPI_T_category_get_num_events": [
+        [
+            "int",
+            "cat_index"
+        ],
+        [
+            "int*",
+            "num_events"
         ]
     ],
     "MPI_T_category_get_pvars": [
@@ -6456,6 +6928,228 @@
             "name_len"
         ]
     ],
+    "MPI_T_event_callback_get_info": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_T_cb_safety",
+            "cb_safety"
+        ],
+        [
+            "MPI_Info*",
+            "info_used"
+        ]
+    ],
+    "MPI_T_event_callback_set_info": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_T_cb_safety",
+            "cb_safety"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ]
+    ],
+    "MPI_T_event_copy": [
+        [
+            "MPI_T_event_instance",
+            "event_instance"
+        ],
+        [
+            "void*",
+            "buffer"
+        ]
+    ],
+    "MPI_T_event_get_index": [
+        [
+            "const char*",
+            "name"
+        ],
+        [
+            "int*",
+            "event_index"
+        ]
+    ],
+    "MPI_T_event_get_info": [
+        [
+            "int",
+            "event_index"
+        ],
+        [
+            "char*",
+            "name"
+        ],
+        [
+            "int*",
+            "name_len"
+        ],
+        [
+            "int*",
+            "verbosity"
+        ],
+        [
+            "MPI_Datatype[]",
+            "array_of_datatypes"
+        ],
+        [
+            "MPI_Aint[]",
+            "array_of_displacements"
+        ],
+        [
+            "int*",
+            "num_elements"
+        ],
+        [
+            "MPI_T_enum*",
+            "enumtype"
+        ],
+        [
+            "MPI_Info*",
+            "info"
+        ],
+        [
+            "char*",
+            "desc"
+        ],
+        [
+            "int*",
+            "desc_len"
+        ],
+        [
+            "int*",
+            "bind"
+        ]
+    ],
+    "MPI_T_event_get_num": [
+        [
+            "int*",
+            "num_events"
+        ]
+    ],
+    "MPI_T_event_get_source": [
+        [
+            "MPI_T_event_instance",
+            "event_instance"
+        ],
+        [
+            "int*",
+            "source_index"
+        ]
+    ],
+    "MPI_T_event_get_timestamp": [
+        [
+            "MPI_T_event_instance",
+            "event_instance"
+        ],
+        [
+            "MPI_Count*",
+            "event_timestamp"
+        ]
+    ],
+    "MPI_T_event_handle_alloc": [
+        [
+            "int",
+            "event_index"
+        ],
+        [
+            "void*",
+            "obj_handle"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "MPI_T_event_registration*",
+            "event_registration"
+        ]
+    ],
+    "MPI_T_event_handle_free": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "void*",
+            "user_data"
+        ],
+        [
+            "MPI_T_event_free_cb_function",
+            "free_cb_function"
+        ]
+    ],
+    "MPI_T_event_handle_get_info": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_Info*",
+            "info_used"
+        ]
+    ],
+    "MPI_T_event_handle_set_info": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ]
+    ],
+    "MPI_T_event_read": [
+        [
+            "MPI_T_event_instance",
+            "event_instance"
+        ],
+        [
+            "int",
+            "element_index"
+        ],
+        [
+            "void*",
+            "buffer"
+        ]
+    ],
+    "MPI_T_event_register_callback": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_T_cb_safety",
+            "cb_safety"
+        ],
+        [
+            "MPI_Info",
+            "info"
+        ],
+        [
+            "void*",
+            "user_data"
+        ],
+        [
+            "MPI_T_event_cb_function",
+            "event_cb_function"
+        ]
+    ],
+    "MPI_T_event_set_dropped_handler": [
+        [
+            "MPI_T_event_registration",
+            "event_registration"
+        ],
+        [
+            "MPI_T_event_dropped_cb_function",
+            "dropped_cb_function"
+        ]
+    ],
     "MPI_T_finalize": [],
     "MPI_T_init_thread": [
         [
@@ -6544,7 +7238,7 @@
     "MPI_T_pvar_handle_alloc": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "int",
@@ -6566,7 +7260,7 @@
     "MPI_T_pvar_handle_free": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle*",
@@ -6576,7 +7270,7 @@
     "MPI_T_pvar_read": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6590,7 +7284,7 @@
     "MPI_T_pvar_readreset": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6604,7 +7298,7 @@
     "MPI_T_pvar_reset": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6614,19 +7308,19 @@
     "MPI_T_pvar_session_create": [
         [
             "MPI_T_pvar_session*",
-            "session"
+            "pe_session"
         ]
     ],
     "MPI_T_pvar_session_free": [
         [
             "MPI_T_pvar_session*",
-            "session"
+            "pe_session"
         ]
     ],
     "MPI_T_pvar_start": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6636,7 +7330,7 @@
     "MPI_T_pvar_stop": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6646,7 +7340,7 @@
     "MPI_T_pvar_write": [
         [
             "MPI_T_pvar_session",
-            "session"
+            "pe_session"
         ],
         [
             "MPI_T_pvar_handle",
@@ -6655,6 +7349,60 @@
         [
             "const void*",
             "buf"
+        ]
+    ],
+    "MPI_T_source_get_info": [
+        [
+            "int",
+            "source_index"
+        ],
+        [
+            "char*",
+            "name"
+        ],
+        [
+            "int*",
+            "name_len"
+        ],
+        [
+            "char*",
+            "desc"
+        ],
+        [
+            "int*",
+            "desc_len"
+        ],
+        [
+            "MPI_T_source_order*",
+            "ordering"
+        ],
+        [
+            "MPI_Count*",
+            "ticks_per_second"
+        ],
+        [
+            "MPI_Count*",
+            "max_ticks"
+        ],
+        [
+            "MPI_Info*",
+            "info"
+        ]
+    ],
+    "MPI_T_source_get_num": [
+        [
+            "int*",
+            "num_sources"
+        ]
+    ],
+    "MPI_T_source_get_timestamp": [
+        [
+            "int",
+            "source_index"
+        ],
+        [
+            "MPI_Count*",
+            "timestamp"
         ]
     ],
     "MPI_Test": [
@@ -6761,7 +7509,7 @@
     ],
     "MPI_Type_contiguous": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
@@ -6787,7 +7535,7 @@
             "ndims"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_gsizes"
         ],
         [
@@ -6855,15 +7603,15 @@
     ],
     "MPI_Type_create_hindexed": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_blocklengths"
         ],
         [
-            "const MPI_Aint[]",
+            "const MPI_Count[]",
             "array_of_displacements"
         ],
         [
@@ -6877,15 +7625,15 @@
     ],
     "MPI_Type_create_hindexed_block": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "int",
+            "MPI_Count",
             "blocklength"
         ],
         [
-            "const MPI_Aint[]",
+            "const MPI_Count[]",
             "array_of_displacements"
         ],
         [
@@ -6899,15 +7647,15 @@
     ],
     "MPI_Type_create_hvector": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "int",
+            "MPI_Count",
             "blocklength"
         ],
         [
-            "MPI_Aint",
+            "MPI_Count",
             "stride"
         ],
         [
@@ -6921,15 +7669,15 @@
     ],
     "MPI_Type_create_indexed_block": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "int",
+            "MPI_Count",
             "blocklength"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_displacements"
         ],
         [
@@ -6965,11 +7713,11 @@
             "oldtype"
         ],
         [
-            "MPI_Aint",
+            "MPI_Count",
             "lb"
         ],
         [
-            "MPI_Aint",
+            "MPI_Count",
             "extent"
         ],
         [
@@ -6979,15 +7727,15 @@
     ],
     "MPI_Type_create_struct": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_blocklengths"
         ],
         [
-            "const MPI_Aint[]",
+            "const MPI_Count[]",
             "array_of_displacements"
         ],
         [
@@ -7005,15 +7753,15 @@
             "ndims"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_sizes"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_subsizes"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_starts"
         ],
         [
@@ -7085,15 +7833,19 @@
             "datatype"
         ],
         [
-            "int",
+            "MPI_Count",
             "max_integers"
         ],
         [
-            "int",
+            "MPI_Count",
             "max_addresses"
         ],
         [
-            "int",
+            "MPI_Count",
+            "max_large_counts"
+        ],
+        [
+            "MPI_Count",
             "max_datatypes"
         ],
         [
@@ -7105,36 +7857,12 @@
             "array_of_addresses"
         ],
         [
+            "MPI_Count[]",
+            "array_of_large_counts"
+        ],
+        [
             "MPI_Datatype[]",
             "array_of_datatypes"
-        ]
-    ],
-    "MPI_Type_get_elements": [
-        [
-            "MPI_Status*",
-            "status"
-        ],
-        [
-            "MPI_Datatype",
-            "datatype"
-        ],
-        [
-            "int*",
-            "count"
-        ]
-    ],
-    "MPI_Type_get_elements_x": [
-        [
-            "MPI_Status*",
-            "status"
-        ],
-        [
-            "MPI_Datatype",
-            "datatype"
-        ],
-        [
-            "MPI_Count*",
-            "count"
         ]
     ],
     "MPI_Type_get_envelope": [
@@ -7143,15 +7871,19 @@
             "datatype"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "num_integers"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "num_addresses"
         ],
         [
-            "int*",
+            "MPI_Count*",
+            "num_large_counts"
+        ],
+        [
+            "MPI_Count*",
             "num_datatypes"
         ],
         [
@@ -7165,11 +7897,11 @@
             "datatype"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "lb"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "extent"
         ]
     ],
@@ -7207,11 +7939,11 @@
             "datatype"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "true_lb"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "true_extent"
         ]
     ],
@@ -7231,15 +7963,15 @@
     ],
     "MPI_Type_indexed": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_blocklengths"
         ],
         [
-            "const int[]",
+            "const MPI_Count[]",
             "array_of_displacements"
         ],
         [
@@ -7295,7 +8027,7 @@
             "datatype"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "size"
         ]
     ],
@@ -7311,15 +8043,15 @@
     ],
     "MPI_Type_vector": [
         [
-            "int",
+            "MPI_Count",
             "count"
         ],
         [
-            "int",
+            "MPI_Count",
             "blocklength"
         ],
         [
-            "int",
+            "MPI_Count",
             "stride"
         ],
         [
@@ -7337,11 +8069,11 @@
             "inbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "insize"
         ],
         [
-            "int*",
+            "MPI_Count*",
             "position"
         ],
         [
@@ -7349,7 +8081,7 @@
             "outbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "outcount"
         ],
         [
@@ -7371,11 +8103,11 @@
             "inbuf"
         ],
         [
-            "MPI_Aint",
+            "MPI_Count",
             "insize"
         ],
         [
-            "MPI_Aint*",
+            "MPI_Count*",
             "position"
         ],
         [
@@ -7383,7 +8115,7 @@
             "outbuf"
         ],
         [
-            "int",
+            "MPI_Count",
             "outcount"
         ],
         [
@@ -7475,7 +8207,7 @@
             "size"
         ],
         [
-            "int",
+            "MPI_Aint",
             "disp_unit"
         ],
         [
@@ -7501,7 +8233,7 @@
             "size"
         ],
         [
-            "int",
+            "MPI_Aint",
             "disp_unit"
         ],
         [
@@ -7561,7 +8293,7 @@
             "size"
         ],
         [
-            "int",
+            "MPI_Aint",
             "disp_unit"
         ],
         [
@@ -7855,7 +8587,7 @@
             "size"
         ],
         [
-            "int*",
+            "MPI_Aint*",
             "disp_unit"
         ],
         [
